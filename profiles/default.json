@@ -1,0 +1,23 @@
+{
+  "name": "Default profile",
+  "ver": 1,
+  "port": "/dev/ttyACM0",
+  "baud": "115200",
+  "screen": 0,
+  "zmax": 190,
+  "jogspeed": 80,
+  "liftspeed": 25,
+  "downspeed": 35,
+  "liftheight": 3,
+  "layerheight": 0.1,
+  "exposure": 2000,
+  "burn_z": 0.1,
+  "burn_mul": 6,
+  "hard_z": 2,
+  "hard_mul": 3,
+  "GCODE_INIT": "G21\nG91",
+  "GCODE_PREFIX": "G21\nG91\nG28 Z",
+  "GCODE_UV_ON": "M106 S255",
+  "GCODE_UV_OFF": "M106 S0",
+  "GCODE_POSTFIX": "G1 Z10.0 F150.0"
+}
