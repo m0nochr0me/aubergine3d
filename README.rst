@@ -37,7 +37,7 @@ You probably need to add your user to the following groups: ``uucp``, ``dialout`
 
 Install::
 
-    $ git clone https://bitbucket.org/m0nochr0me/aubergine3d.git
+    $ git clone https://github.com/m0nochr0me/aubergine3d.git
     $ cd aubergine3d
     $ pipenv --python 3
     $ pipenv install ewmh pyserial natsort screeninfo
@@ -56,7 +56,7 @@ Connect, load job and start print::
     > load <filename>.txz
     > start
 
-Job files can be prepared with `stlslice <https://bitbucket.org/m0nochr0me/stlslice>`_
+Job files can be prepared with `stlslice <https://github.com/m0nochr0me/stlslice/>`_
 
 Notice
 ------
